@@ -14,9 +14,11 @@
 
 使用 **U 盘** 安装应该选用 `img` 结尾的镜像，例如
 
-[FreeBSD-14.0-RELEASE-amd64-memstick.img](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.0/FreeBSD-14.0-RELEASE-amd64-memstick.img)
+[FreeBSD-14.1-RELEASE-amd64-memstick.img](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-memstick.img)
 
 只有当使用 **光盘/虚拟机** 安装时才应选用 `iso` 结尾的镜像。这是因为 FreeBSD 的 ISO 镜像没做 Hybrid 混合启动，写入 U 盘会产生错误。见 [Bug](https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=236786)。
+
+>**iso 镜像并不适用于物理机，物理机请使用 img 镜像。** **除非你有光盘，否则不要下 ISO；** **也不要没事找事用 Ventoy，下载个 img 刻录并不费事。** **如果安装中出现任何问题，请回过头来看看这里这句话。**
 
 **FreeBSD 所有安装介质包括不限于虚拟机文件都没有提供图形界面，均需要自行安装。**
 
